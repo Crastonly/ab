@@ -1,0 +1,13 @@
+HotKeySet("+!h", "SendHi")
+HotKeySet("+!y", "SendYo")
+
+While(1)
+    Sleep(100)
+WEnd
+
+Func SendHi()
+    Send("hi this is my first script i ever made")
+EndFunc
+Func SendYo()
+     Send("yo")
+EndFunc
